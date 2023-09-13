@@ -65,7 +65,7 @@ if (qtdDigito > 0){
     validacoes++       
 }
 
-if (validacoes < 4){ //deve conter letra maiúscula, minúscula, caracter especial e um número
+if (validacoes <= 4){ //deve conter letra maiúscula, minúscula, caracter especial e um número
     console.log("A senha é válida")
 } else {
     console.log("A senha é inválida")
